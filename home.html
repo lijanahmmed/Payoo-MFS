@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo MFS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main class="flex justify-center mt-10 bg-white">
+        <div class="mockup-phone">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display text-white grid place-content-center">
+                
+                <section>
+                    <div>
+                        <div class="stats shadow">
+                            <div class="stat bg-slate-100">
+                              <div id="balance" class="stat-value text-black">8400</div>
+                              <div class="stat-desc">Available balance</div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="mt-5">
+                        <button class="btn">Add Money</button>
+                        <button class="btn">Cash Out</button>
+                    </div>
+                    <div class="mt-5">
+                        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <div class="card-body">
+                              <fieldset class="fieldset">
+                                <label class="fieldset-label text-xl font-bold">Amount</label>
+                                <input id="amount" type="text" class="input text-black" placeholder="Amount" />
+                                <label class="fieldset-label text-xl font-bold">Pin</label>
+                                <input id="pin-num1" type="password" class="input text-black" placeholder="4 digit pin" />
+                                <button id="add-money" class="btn btn-primary mt-4">Add Money</button>
+                              </fieldset>
+                            </div>
+                          </div>
+                    </div>
+
+                </section>
+
+            </div>
+          </div>
+          
+    </main>
+    <script src="js/addMoney.js"></script>
+</body>
+</html>
