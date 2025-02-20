@@ -8,10 +8,10 @@ document.getElementById('add-money').addEventListener('click', function(event){
         const balanceNumber = parseFloat(balance)
         const newBalance = balanceNumber + addMoneyAmount;
         document.getElementById('balance').innerText = newBalance;
-        document.getElementById('amount').value = ''
-        document.getElementById('pin-num1').value = ''
     }
     else{
         alert('Incorrect pin')
     }
+    document.getElementById('amount').value = ''
+    document.getElementById('pin-num1').value = ''
 })
