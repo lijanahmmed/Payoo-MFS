@@ -27,7 +27,7 @@
                         <button class="btn">Cash Out</button>
                     </div>
                     <div class="mt-5">
-                        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                             <div class="card-body">
                               <fieldset class="fieldset">
                                 <label class="fieldset-label text-xl font-bold">Amount</label>
@@ -35,6 +35,18 @@
                                 <label class="fieldset-label text-xl font-bold">Pin</label>
                                 <input id="pin-num1" type="password" class="input text-black" placeholder="4 digit pin" />
                                 <button id="add-money" class="btn btn-primary mt-4">Add Money</button>
+                              </fieldset>
+                            </div>
+                          </div>
+
+                          <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                            <div class="card-body">
+                              <fieldset class="fieldset">
+                                <label class="fieldset-label text-xl font-bold">Amount</label>
+                                <input id="amount2" type="text" class="input text-black" placeholder="Amount" />
+                                <label class="fieldset-label text-xl font-bold">Pin</label>
+                                <input id="pin-num2" type="password" class="input text-black" placeholder="4 digit pin" />
+                                <button id="cash-out" class="btn btn-primary mt-4">Cash Out</button>
                               </fieldset>
                             </div>
                           </div>
@@ -47,5 +59,6 @@
           
     </main>
     <script src="js/addMoney.js"></script>
+    <script src="js/cashOut.js"></script>
 </body>
 </html>
